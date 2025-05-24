@@ -690,6 +690,161 @@ iframe:hover{
 
 
 
+@media(max-width: 1025px){
+    header{
+        padding: 16px 32px;
+    }
+    .header_logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo1{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    .logo2{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .section2{
+        padding-inline: 32px 0;
+    }
+    footer{
+        padding-inline: 32px;
+    }
+    .artwork_section1{
+        padding-inline: 55px;
+    }
+    .contact_section1{
+        padding-left: 32px;
+    }
+}
+
+
+@media (max-width: 745px){
+    header{
+        padding-inline: 24px;
+    }
+    .header_span_right{
+        display: none;
+    }
+    .fa-arrow-right-to-bracket, .fa-bars{
+        display: block;
+    }
+    .headernav{
+        display: none;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_nav_left{
+        margin-bottom: 32px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .media_box{
+        margin-bottom: 32px;
+    }
+    .footer_logo{
+        margin-bottom: 32px;
+    }
+    .footer_info{
+        display: none;
+    }
+    .footer_nav_right{
+        display: flex;
+        justify-content: center;
+    }
+    .logo1, .logo2{
+        font-size: 36px;
+    }
+    .footer_ul_right{
+        width: 104px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .fa-phone:hover{
+        text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF;
+    }
+    .fa-envelope:hover{
+        text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF;
+    }
+    .fa-location-dot:hover{
+        text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF;
+    }
+    .fa-bars:hover{
+        text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF;
+    }
+    .fa-arrow-right-to-bracket:hover{
+        text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF,
+        0 0 1px #FFFFFF;
+    }
+    .contact_section1{
+        padding-left: 32px;
+    }
+    .contact_section2_leftside{
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+
+
+
+
 @media ( max-width: 1300px ) {
     .section2_cards {
         overflow-x: scroll;
