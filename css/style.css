@@ -686,7 +686,22 @@ iframe:hover{
     transition: .3 linear;
     cursor: pointer;
 }
-
+.minimediaICONs{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    display: none;
+}
+.miniiconsa{
+    color: white;
+    font-size: 18px;
+    animation-name: changecolor;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
 
 
 
@@ -835,7 +850,99 @@ iframe:hover{
     .contact_section2_leftside{
         flex-direction: row;
     }
+    .artwork_section1{
+        padding-inline: 24px;
+    }
 }
+
+
+@media (max-width: 481px) {
+    .section1_h2{
+        font-size: 24px;
+    }
+    .section2_h2{
+        font-size: 32px;
+        
+    }
+    .artwork_section1_h3{
+        font-size: 16px;
+    }
+    .section1_sort_p{
+        display: none;
+    }
+    .section1_sort_by{
+        width: 61px;
+        height: 40px;
+    }
+    .bolo2{
+        display: none;
+    }
+    .btn3, .btn4 {
+        display: none;
+    }
+    .artwork_section1{
+        padding-inline: 24px;
+    }
+    .contact_section2_leftside{
+        column-gap: 42px;
+    }
+}
+
+
+@media (max-width: 321px){
+   header{
+    padding-inline: 8px;
+      }
+      .section2_h2{
+        font-size: 24px;
+      }
+      .section2{
+        padding-left: 8px;
+        padding-top: 48px;
+      }
+      .artwork_section1{
+        padding-inline: 8px;
+      }
+      h5, h6{
+        font-size: 24px;
+      }
+      .contact_section1{
+        
+        height: 496px;
+      }
+      .name_email_box{
+        flex-direction: column;
+        row-gap: 24px;
+      }
+      .form{
+        padding: 16px 20px;
+      }
+      .section1_form_button{
+        width: 100%;
+      }
+      .contact_section1_form_content{
+        row-gap: 24px;
+      }
+     .contact_section2{
+        padding: 48px 8px;
+     }
+     .contact_section2_leftside{
+        display: none;
+     }
+     .minimediaICONs{
+        display: block;
+        width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+     }
+    }
+      
+
+
+
 
 
 
