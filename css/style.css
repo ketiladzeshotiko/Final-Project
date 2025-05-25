@@ -90,7 +90,7 @@ color: white;
         0 0 1px #FFFFFF,
         0 0 1px #FFFFFF;
 }
-.fa-bars, .fa-xmark{
+.fa-bars, .fa-xmark {
     font-size: 32px;
     color: white;
 }
@@ -750,7 +750,26 @@ animation-iteration-count: infinite;
     }
     .headernav{
         display: none;
+        background-color: #B53B1B;
+        position: fixed;
+        bottom: -240px;
+        width: 260px;
+        height: 240px;
+        padding: 25px 0 0 20px;
+        left: 0;
+        
     }
+    /* js */
+   .headerul{
+    flex-direction: column;
+    row-gap: 24px;
+   }
+   .headernav.activeNav{
+    display: block;
+   }
+   
+
+
     footer{
         display: flex;
         flex-direction: column;
